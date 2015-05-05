@@ -1,4 +1,4 @@
-out/lookup_countries.json: tmp/countrynames.txt
+dist/lookup_countries.json: tmp/countrynames.txt
 	mkdir -p $(dir $@)
 	node lib/processGeoNames.js $< $@.tmp
 	mv $@.tmp $@
