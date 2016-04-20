@@ -3,9 +3,13 @@ an ISO-3 code.
 
 Use the distributed json:
 
+terminal:
+
 ```sh
 npm install countries-iso
 ```
+
+javascript:
 
 ```js
 const isos = require('countries-iso')
